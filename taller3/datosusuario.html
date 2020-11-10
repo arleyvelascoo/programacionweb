@@ -1,0 +1,117 @@
+<html>
+<head>
+    <title>Datos usuario</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <style type="text/css">
+        img {
+            max-height: 15em;
+        }
+        .card-group {
+            margin-bottom: 3em;
+        }
+        .login{
+            margin-top: 4em;
+            margin-bottom: 4em;
+        }
+
+        fieldset.scheduler-border {
+            border: solid 1px #DDD !important;
+            padding: 0 10px 10px 10px;
+            border-bottom: none;
+        }
+
+        legend.scheduler-border {
+            width: auto !important;
+            border: none;
+            font-size: 1.2em;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container login">
+        <h2>Rellena tu CV</h2>
+        <form action="#">
+            <label>Nombre</label>
+            <input class="form-control">
+            <label>Apellidos</label>
+            <input class="form-control">
+            <label for="inputPassword4">Contraseña</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+            <label for="inputPassword4">Confirmar contraseña</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+            <label>Identifiación</label></br>
+            <select id="inputState">
+                <option selected>TI</option>
+                <option>CC</option>
+                <option>CE</option>
+            </select>
+            <input></br>
+            <label>Sexo</label></br>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  Hombre
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                  Mujer
+                </label>
+            </div></br>
+            <div class="form-group">
+                <label for="exampleFormControlFile1">Incluir mi foto</label>
+                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Estudiante....
+                </label>
+            </div>
+        </br>
+            <fieldset class="scheduler-border">
+                <legend class="scheduler-border">Datos personales</legend>
+                <label>Departamento</label>
+                <select id="inputState">
+                    <option selected>-selcciona-</option>
+                    <option>Antioquia</option>
+                    <option>Atlantico</option>
+                    <option>Santander</option>
+                </select></br>
+                <label>Fecha de Nacimiento</label></br>
+                <input type="number" max="31"> de 
+                <select id="inputState">
+                    <option selected>Enero</option>
+                    <option>Febrero</option>
+                    <option>Marzo</option>
+                    <option>Abril</option>
+                    <option>Mayo</option>
+                    <option>Junio</option>
+                    <option>Julio</option>
+                    <option>Agosto</option>
+                    <option>Septiembre</option>
+                    <option>Octubre</option>
+                    <option>Noviembre</option>
+                    <option>Diciembte</option>
+                </select>
+                de
+                <input type="number" max="2020"></br>
+                <label>Temas de Interés</label ></br>
+                <textarea name="" id="" cols="30" rows="7">
+
+                </textarea>
+
+            </fieldset></br>
+        
+        <button type="submit" class="btn btn-success">Guardar cambios</button>    
+        <button type="reset" class="btn btn-light">Borrar los datos introducidos</button>
+
+
+        </form>
+    </div></br>
+
+</body>
+
+</html>

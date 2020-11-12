@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Materialize</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('select').formSelect();
+        });
+    </script>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Materialize</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="collapsible.html">JavaScript</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col s12 center-align">
+            <h2>Register Form</h2>
+        </div>
+        <div class="col s12 m4 l2">
+            <p></p>
+        </div>
+        <div class="col s12 m4 l8">
+
+            <div class="row">
+                <form class="col s12" action="mailto:advb.16@gmail.com">
+
+                    <div class="row">
+                        <div class="input-field col s5">
+
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">verified_user</i>
+                            <input type="number" max="99999999999" min="1" maxlength="11" required>
+                            <label for="first_name">Id User</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">my_location</i>
+                            <select required>
+                                <option value="" disabled selected>País</option>
+                                <option value="1">Colombia</option>
+                                <option value="2">Estados Unidos</option>
+                                <option value="3">Argentina</option>
+                                <option value="4">Brasil</option>
+                                <option value="5">Chile</option>
+                                <option value="6">Perú</option>
+                                <option value="7">Ecuador</option>
+                                <option value="8">Canadá</option>
+                                <option value="9">México</option>
+                                <option value="10">España</option>
+                                <option value="11">Inglaterra</option>
+                                <option value="12">Portugal</option>
+                                <option value="13">Italia</option>
+                                <option value="14">Alemania</option>
+                                <option value="15">Bolivia</option>
+                                <option value="16">Cuba</option>
+                                <option value="17">Panamá</option>
+                                <option value="18">Andorra</option>
+
+                            </select>
+                            <label>Country</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="first_name" type="text" class="validate" maxlength="25" required>
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="last_name" type="text" class="validate" maxlength="25" required>
+                            <label for="last_name">Last Name</label>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">home</i>
+                            <input id="add" type="text" class="validate" maxlength="45" required>
+                            <label for="direccion">Address</label>
+                            <span class="helper-text" data-error="Wrong" data-success="Right">Cra. 12 #34-56</span>
+                        </div>
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">phone_iphone</i>
+                            <input type="number" class="validate" id="phone" maxlength="20" min="1" max="99999999999"
+                                required>
+                            <label for="phone">Telefono</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">person_pin</i>
+                            <input id="username" type="text" class="validate" required maxlength="20" required>
+                            <label for="username">Username</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">https</i>
+                            <input id="password" type="password" class="validate" required>
+                            <label for="password">Password</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">email</i>
+                            <input id="email" type="email" class="validate" maxlength="120" required>
+                            <label for="email">Email</label>
+                            <span class="helper-text" data-error="Wrong" data-success="Right">example@example.com</span>
+                        </div>
+                    </div>
+                    <div class="center-align">
+                        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+
+
+        </div>
+        <div class="col s12 m4 l2">
+            <p></p>
+        </div>
+    </div>
+
+
+
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer
+                        content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2014 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

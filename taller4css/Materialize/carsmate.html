@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars Materialize</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('select').formSelect();
+        });
+
+        $(function () {
+            $('.collapsible').collapsible();
+        });
+        $(function () {
+            $('#fecha').datepicker({
+                format: 'dd/mm/yyyy',
+                setDefaultDate: true,
+                defaultDate: new Date(2020, 10, 1)
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav class="pink darken-4">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">Materialize</a>
+
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="row">
+        <div class="col s12 center-align">
+            <h2>Cars Form</h2>
+        </div>
+        <div class="col s12 m4 l2">
+            <p></p>
+        </div>
+        <div class="col s12 m4 l8">
+
+
+            <div class="row">
+                <form class="col s12">
+                    <ul class="collapsible">
+                        <li class="active">
+                            <div class="collapsible-header pink lighten-5">
+                                <i class="material-icons">verified_user</i>
+                                First
+                            </div>
+                            <div class="collapsible-body">
+
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <i class="material-icons prefix">directions_car</i>
+                                        <input type="number" max="99999999999" min="1" maxlength="11" required>
+                                        <label for="number">Id Vehiculo</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <i class="material-icons prefix">perm_identity</i>
+                                        <select required>
+                                            <option value="" disabled selected>User</option>
+                                            <option value="1">Horacio Antonio Camacho</option>
+                                            <option value="2">Arley David Velasco</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <i class="material-icons prefix">local_gas_station</i>
+                                        <select multiple required>
+                                            <option value="" disabled selected>Combustible</option>
+                                            <option value="1">Bioetanol</option>
+                                            <option value="2">Diesel</option>
+                                            <option value="3">Gasolina corriente</option>
+                                            <option value="4">Gas natural</option>
+                                            <option value="5">Diesel plus</option>
+                                        </select>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <i class="material-icons prefix">list</i>
+                                        <select required>
+                                            <option value="" disabled selected>Tipo de vehículo</option>
+                                            <option value="1">Sedán</option>
+                                            <option value="2">Deportivo</option>
+                                            <option value="3">Todoterreno</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <i class="material-icons prefix">thumbs_up_down</i>
+                                        <select required>
+                                            <option value="" disabled selected>Estado</option>
+                                            <option value="1">Bueno</option>
+                                            <option value="2">Aceptable</option>
+                                            <option value="3">Malo</option>
+                                        </select>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <i class="material-icons prefix">vignette</i>
+                                        <select required>
+                                            <option value="" disabled selected>Marca</option>
+                                            <option value="1">Chevrolet</option>
+                                            <option value="2">Mazda</option>
+                                            <option value="3">Hyundai</option>
+                                            <option value="4">Audi</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header pink lighten-5">
+                                <i class="material-icons">rate_review</i>
+                                Second
+                            </div>
+                            <div class="collapsible-body">
+
+
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <i class="material-icons prefix">label_outline</i>
+                                        <input id="first_name" type="text" class="validate" maxlength="60" required>
+                                        <label for="first_name">Modelo</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <i class="material-icons prefix">label</i>
+                                        <input id="last_name" type="text" class="validate" maxlength="4" required>
+                                        <label for="last_name">Año</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <i class="material-icons prefix">info</i>
+                                        <input id="add" type="text" class="validate" required>
+                                        <label for="add">Detalle</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <i class="material-icons prefix">assignment_turned_in</i>
+                                        <input type="number" class="validate" id="caja" maxlength="20" min="1"
+                                            max="99999999999" required>
+                                        <label for="caja">Caja</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <i class="material-icons prefix">date_range</i>
+                                        <input type="text" id="fecha" class="datepicker ">
+                                        <label for="fecha">Fecha</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <i class="material-icons prefix">settings</i>
+                                        <input type="number" class="validate" id="phone" maxlength="20" min="1"
+                                            max="99999999999" required>
+                                        <label for="phone">Motor</label>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </li>
+
+
+                        <li>
+                            <div class="collapsible-header pink lighten-5">
+                                <i class="material-icons">monetization_on</i>
+                                Third
+                            </div>
+                            <div class="collapsible-body">
+
+
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <i class="material-icons prefix">monetization_on</i>
+                                        <input id="username" type="number" class="validate" required maxlength="20"
+                                            required>
+                                        <label for="username">Precio</label>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        
+                                        <blockquote style="border-color: #880e4f;">
+                                            
+                                            <h6>Moneda</h6>
+                                        </blockquote>
+                                        <p>
+                                            <label>
+                                                <input name="group1" type="radio" value="EUR" checked />
+                                                <span>Euro</span>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label>
+                                                <input name="group1" type="radio" value="DLR" />
+                                                <span>Dolar</span>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label>
+                                                <input name="group1" type="radio" value="COP" />
+                                                <span>Peso</span>
+                                            </label>
+                                        </p>
+                                        <p>
+                                            <label>
+                                                <input name="group1" type="radio" value="LBS" />
+                                                <span>Libras</span>
+                                            </label>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s6">
+                                        <i class="material-icons prefix">description</i>
+                                        <input id="desc1" type="text" class="validate" maxlength="85" required>
+                                        <label for="desc1">Descripcion 1</label>
+                                    </div>
+                                    <div class="input-field col s6">
+                                        <i class="material-icons prefix">description</i>
+                                        <input id="desc2" type="text" class="validate" maxlength="85" required>
+                                        <label for="desc2">Descripcion 2</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <i class="material-icons prefix">description</i>
+                                        <input id="desc3" type="text" class="validate" maxlength="85" required>
+                                        <label for="desc3">Descripcion 3</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="center-align">
+                        <a href="../integrantes.html" class="btn waves-effect waves-light pink darken-4">
+                            Getback
+                            <i class="material-icons right">skip_previous</i>
+                        </a>
+                        <button class="btn waves-effect waves-light pink darken-4" type="submit" name="action">Submit
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+
+        </div>
+        <div class="col s12 m4 l2">
+            <p></p>
+        </div>
+    </div>
+
+
+
+
+    <footer class="page-footer pink darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer
+                        content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2014 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

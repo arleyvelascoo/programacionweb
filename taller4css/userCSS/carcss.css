@@ -1,0 +1,65 @@
+body{
+    background: #e0e0e0;
+}
+
+.form{
+    color: white;
+    margin: 8em 15em;
+    background-color: #f9aa33;
+    padding: 3em;
+    border-radius: 2em;
+    box-shadow: 10px 5px 5px black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+input{
+    margin: 0.5em 0.5em;
+}
+
+fieldset{
+    margin: 0.5em 0.5em;
+}
+
+select{
+    margin: 0.5em 0.5em;
+}
+
+button{
+    margin: 0.5em 0.5em;
+    background:white;
+}
+
+.btn:hover{
+    background: #232f34;
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    color: black;
+    background: transparent;
+    border: 2px solid #232f34;
+    border-radius: 0.25em;
+
+    padding: 0.5em 0.9em;
+    text-align: center;
+    display: inline-block;
+    font-size: 1em;
+    margin-top: 1em;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.info{
+    background-color: #232f34;
+    border-radius: 2em;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.title{
+    color: black;
+}

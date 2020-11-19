@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars CSS</title>
+    <link rel="stylesheet" type="text/css" href="carcss.css">
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+</head>
+
+<body>
+    <div class="form">
+        <div class="title">
+        <h2>Formulario Vehiculos</h2>
+        </div>
+        <form action="mailto:advb.16@hotmail.com">
+            <div class="info">
+                <fieldset>
+                    <legend>
+                        <ion-icon name="shield-checkmark-outline"></ion-icon> Identificación
+                    </legend>
+
+                    Id Vehiculo </br>
+                    <input type="number" max="99999999999" min="1" maxlength="11" required></br>
+
+                    Usuario </br>
+                    <select required>
+                        <option value="" disabled selected>User</option>
+                        <option value="1">Horacio Antonio Camacho</option>
+                        <option value="2">Arley David Velasco</option>
+                    </select></br>
+
+                    Combustible </br>
+                    <select multiple required>
+                        <option value="" disabled selected>Combustible</option>
+                        <option value="1">Bioetanol</option>
+                        <option value="2">Diesel</option>
+                        <option value="3">Gasolina corriente</option>
+                        <option value="4">Gas natural</option>
+                        <option value="5">Diesel plus</option>
+                    </select></br>
+                    Tipo de vehiculo </br>
+                    <select required>
+                        <option value="" disabled selected>Tipo de vehículo</option>
+                        <option value="1">Sedán</option>
+                        <option value="2">Deportivo</option>
+                        <option value="3">Todoterreno</option>
+                    </select></br>
+
+
+                    Estado <br>
+                    <select required>
+                        <option value="" disabled selected>Estado</option>
+                        <option value="1">Bueno</option>
+                        <option value="2">Aceptable</option>
+                        <option value="3">Malo</option>
+                    </select><br>
+                    Marca <br>
+                    <select required>
+                        <option value="" disabled selected>Marca</option>
+                        <option value="1">Chevrolet</option>
+                        <option value="2">Mazda</option>
+                        <option value="3">Hyundai</option>
+                        <option value="4">Audi</option>
+                    </select>
+
+                </fieldset>
+
+            </div>
+            <div class="info">
+                <fieldset>
+                    <legend>
+                        <ion-icon name="reader-outline"></ion-icon> Información
+                    </legend>
+    
+                    Modelo <br>
+                    <input id="first_name" type="text" class="validate" maxlength="60" required><br>
+                    Año <br>
+                    <input id="last_name" type="text" class="validate" maxlength="4" required><br>
+    
+                    Detalle <br>
+                    <input id="add" type="text" class="validate" required>
+                    <br>Caja <br>
+                    <input type="number" class="validate" id="caja" maxlength="20" min="1" max="99999999999" required> <br>
+    
+                    Fecha <br>
+                    <input type="text" id="fecha" class="datepicker ">
+    
+                    <br> Motor <br>
+                    <input type="number" class="validate" id="phone" maxlength="20" min="1" max="99999999999" required>
+    
+                </fieldset>
+
+            </div>
+
+            <div class="info">
+                <fieldset>
+
+                    <legend>
+                        <ion-icon name="cash-outline"></ion-icon> Facturación
+                    </legend>
+                    Precio <br>
+                    <input id="username" type="number" class="validate" required maxlength="20" required>
+    
+                    <br> Moneda <br>
+                    <p>
+                        <label>
+                            <input name="group1" type="radio" value="EUR" checked />
+                            <span>Euro</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input name="group1" type="radio" value="DLR" />
+                            <span>Dolar</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input name="group1" type="radio" value="COP" />
+                            <span>Peso</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input name="group1" type="radio" value="LBS" />
+                            <span>Libras</span>
+                        </label>
+                    </p>
+                    Descripción <br>
+                    <input id="desc1" type="text" class="validate" maxlength="85" required>
+                    <br> Descripción 2 <br>
+                    <input id="desc2" type="text" class="validate" maxlength="85" required>
+    
+                    <br> Descripción 3 <br>
+                    <input id="desc3" type="text" class="validate" maxlength="85" required>
+                </fieldset>
+
+            </div>
+ 
+
+            <div class="center-align">
+
+                <button class="btn" type="submit" name="action">Enviar 
+                </button>
+            </div>
+
+        </form>
+
+        <a href="../integrantes.html"><button class="btn">Get back</button></a>
+    </div>
+
+</body>
+
+</html>

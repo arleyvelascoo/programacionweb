@@ -282,7 +282,7 @@ function validarPassword(campo) {
             letter = true;
         }
     })
-    return(validarLongitud(campo, 15, 20) && /^[0-9A-Za-z]+$/.test(campo) && num && com && letter);
+    return(validarLongitud(campo, 15, 20) && /^[0-9A-Za-z/#%&]+$/.test(campo) && num && com && letter);
 }
 
 function validarDireccion(campo){

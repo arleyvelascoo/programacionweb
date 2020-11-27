@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd15e9f0-74cf-473a-a9a3-6ac4c028e8d5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taller5js/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/taller5js/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taller5js/integrantes.html" beforeDir="false" afterPath="$PROJECT_DIR$/taller5js/integrantes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taller5js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/taller5js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +46,8 @@
       <workItem from="1606441645510" duration="3967000" />
       <workItem from="1606450041609" duration="19000" />
       <workItem from="1606450081457" duration="13000" />
+      <workItem from="1606450419145" duration="33000" />
+      <workItem from="1606450697101" duration="21000" />
     </task>
     <servers />
   </component>

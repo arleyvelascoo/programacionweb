@@ -15,16 +15,18 @@ document.addEventListener("DOMContentLoaded", function() {
             '</div></div><div class="form-row"><div class="form-group col-md-6"><label for="inputAddress">Estilo de Carro Favorito</label>' +
             '<input type="text" class="form-control" id="style"></div><div class="form-group col-md-6"><label for="inputPassword4">Modelo del carro que más le gusta</label>' +
             '<input type="text" class="form-control" id="model"></div></div>' +
-            '<iframe src="slider.html"></iframe>';
-
-
+	    '<div class="form-group">'+
+            '<label for="inputAddress">Rango de Precio para su vehiculo </label>' +
+            '<iframe id="ifram" style="border: 0;" class="col-md-12" src="1.html"></iframe>'+
+	    '</div>' +
+	''
+      ;
+      
 
     });
 
+    document.getElementById("formulario").addEventListener('submit', validarFormulario);
 });
-
-document.getElementById("formulario").addEventListener('submit', validarFormulario);
-
 
 function validarFormulario(evento) {
 
@@ -145,5 +147,7 @@ function validarFormulario(evento) {
         window.scroll(0, 0);
         return;
     }
+
+
     this.submit();
 }

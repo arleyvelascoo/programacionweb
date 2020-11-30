@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="dd15e9f0-74cf-473a-a9a3-6ac4c028e8d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taller5js/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/taller5js/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/taller5js/integrantes.html" beforeDir="false" afterPath="$PROJECT_DIR$/taller5js/integrantes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/taller5js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/taller5js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +41,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/taller5js" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -48,20 +66,39 @@
       <workItem from="1606450081457" duration="13000" />
       <workItem from="1606450419145" duration="33000" />
       <workItem from="1606450697101" duration="21000" />
+      <workItem from="1606450857682" duration="320000" />
+      <workItem from="1606486900706" duration="2689000" />
+      <workItem from="1606708093555" duration="163000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1606708254053">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1606708254053" />
     <state x="312" y="167" key="Vcs.Push.Dialog.v2" timestamp="1606449955652">
       <screen x="0" y="0" width="1440" height="870" />
     </state>
     <state x="312" y="167" key="Vcs.Push.Dialog.v2/0.0.1440.870@0.0.1440.870" timestamp="1606449955652" />
-    <state x="537" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606437752611">
+    <state x="537" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606488881438">
       <screen x="0" y="0" width="1440" height="870" />
     </state>
-    <state x="537" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.870@0.0.1440.870" timestamp="1606437752611" />
+    <state x="537" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.870@0.0.1440.870" timestamp="1606488881438" />
   </component>
 </project>

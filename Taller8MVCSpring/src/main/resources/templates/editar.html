@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head th:replace="plantilla/plantilla :: head">
+		<title>Getting Started: Serving Web Content</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	</head>
+	<body>
+		<header th:replace="plantilla/plantilla :: header"> </header>
+
+		<main class="grey lighten-2">
+			<div class="container z-depth-1 white"
+					 style="margin-top: 4em; margin-bottom: 3em; padding: 1em 1em;">
+				<!-- Formulario -->
+				<div id="formulario-menu">
+					<h3 class="center-align">CONTACTO</h3>
+					<form id="formulario" action="https://github.com/arleyvelascoo/programacionweb">
+						<div class="row">
+							<div class="input-field col s6">
+								<i class="material-icons prefix">perm_identity</i>
+								<label for="nombre">Nombre</label>
+								<input type="text" name="nombre" required>
+							</div>
+							<div class="input-field col s6">
+						  		<i class="material-icons prefix">person_pin</i>
+								<label for="apellido">Apellido</label>
+								<input type="text" name="apellido" required>
+							</div>					
+						</div>	
+
+						<div class="row">
+							<div class="input-field col s6">
+								<i class="material-icons prefix">date_range</i>
+								<label for="apellido">Nacimiento</label>	<input type="text" class="datepicker" id="fecha_nacimiento" required> </div>
+							<div class="input-field col s6">
+								<i class="material-icons prefix">check</i>
+								<label class="active" for="apellido" id="label-age">Edad</label>	
+								<input type="text" class="" id="age" readonly value="-"> 
+							</div>
+						</div>				
+
+						<div class="row">
+							<div class="input-field col s6">
+								<i class="material-icons prefix">email</i>
+								<label for="email">Email</label>
+								<input type="email" name="email" required>
+							</div>	
+							<div class="input-field col s6">
+								<i class="material-icons prefix">assignment_ind</i>
+								<label for="user">Usuario</label>
+								<input type="text" id="user" required>
+							</div>	
+						</div>
+
+						<div class="row">
+							<div class="input-field col s6">
+								<i class="material-icons prefix">call</i>
+								<label for="phone">Telefono</label>
+								<input type="text" id="phone" required>
+							</div>
+						</div>	
+
+
+						<div class="row">
+							<div class="input-field col s6">
+								<i class="material-icons prefix">password</i>
+								<label for="password">Contraseña</label>
+								<input type="password" id="password" required>
+							</div>
+							<div class="input-field col s6">
+								<i class="material-icons prefix">password</i>
+								<label for="password2">Confirmar</label>
+								<input type="password" id="password2" required>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="input-field col s6">
+								<i class="material-icons prefix">location_on</i>
+								<select id="departamentos">
+								</select>
+								<label>Seleccione su departamento</label>
+							</div>
+							<div class="input-field col s6">
+								<i class="material-icons prefix">gps_fixed</i>
+								<select id="municipios">
+									<option value="" disabled selected>Choose your option</option>
+								</select>
+								<label>Seleccione su ciudad o municipio</label>
+							</div>
+						</div>	
+
+
+						<p class="center-align">
+						<button class="waves-effect waves-light btn amber accent-4 blue-grey-text text-darken-4" type="submit"><i class="material-icons right">send</i>enviar</button>
+						</p>
+					</form>
+				</div>
+				<!-- Fin del formulario -->
+
+			</div>
+		</main>
+
+		<div th:replace="plantilla/plantilla :: footer"></div>
+
+	</body>
+</html>
+
+

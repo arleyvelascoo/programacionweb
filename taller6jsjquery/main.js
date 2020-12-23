@@ -314,6 +314,7 @@ $(document).ready(() => {
 						</tr>
 					</thead>
 					<tbody>`
+
 				for (let item of json) {
 					html += `<tr>
 						<td> ${item.id} </td>
@@ -333,8 +334,10 @@ $(document).ready(() => {
 				$('#search').on('keyup', function () {
 					var input = $(this).val().toLowerCase();
 					$("#myTable tbody tr").filter(function () {
-						$(this).toggle($(this).text().toLowerCase().indexOf(input) > -1)
+						$(this).toggle($(this).text().toLowerCase().indexOf(input) > -1);
 					});
+
+
 				});
 			}
 

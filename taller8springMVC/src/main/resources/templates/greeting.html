@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head th:replace="plantilla/plantilla :: head">
+		<title>Getting Started: Serving Web Content</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	</head>
+	<body>
+		<header th:replace="plantilla/plantilla :: header"> </header>
+
+		<main class="grey lighten-2">
+			<div class="container z-depth-1 white"
+					 style="margin-top: 2em; margin-bottom: 3em; padding: 1em 1em;">
+				<!-- Integrantes-->
+				<div id="integrantes-menu">
+					<div class="col s12 center-align">
+						<h2>Members</h2>
+					</div>
+
+					<div class="row">
+						<div class="col s6">
+							<div class="card">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img class="activator" th:src="@{/imgs/foto2.jpg}">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">Arley
+										David Velasco-2180984<i class="material-icons right">more_vert</i>
+									</span>
+									<p>
+										<a
+											class="waves-effect waves-light btn-small blue-grey darken-4"
+											href="https://www.instagram.com/arleyvelascoo/">View more</a>
+									</p>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title grey-text text-darken-4">Description<i
+										class="material-icons right">close</i></span>
+									<p>Sixth semester student of Systems Engineering at the
+										Industrial University of Santander.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col s6">
+							<div class="card">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img class="activate" th:src="@{/imgs/i3.jpeg}">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">Horacio
+										Antonio Camacho-2180986<i class="material-icons right">more_vert</i>
+									</span>
+									<p>
+										<a
+											class="waves-effect waves-light btn-small blue-grey darken-4"
+											href="https://www.linkedin.com/in/horacio-antonio-camacho-holguin-a219a5168/">View
+											more</a>
+									</p>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title grey-text text-darken-4">Description<i
+										class="material-icons right">close</i></span>
+									<p>Sixth semester student of Systems Engineering at the
+										Industrial University of Santander.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+        <!-- Fin de Integrantes-->
+
+			</div>
+		</main>
+
+		<div th:replace="plantilla/plantilla :: footer"></div>
+
+	</body>
+</html>
+
+
+

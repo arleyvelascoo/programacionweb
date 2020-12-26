@@ -1,0 +1,81 @@
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+main {
+	flex: 1 0 auto;
+}
+.input-field .prefix.active {
+  color: #607d8b;
+}
+
+.datepicker-date-display {
+  background-color: #263238;
+}
+
+.datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done {
+  color: #263238;
+}
+
+.datepicker-table td.is-today {
+    color: #ffab00;
+}
+
+.datepicker-table td.is-selected {
+    background-color: #ffab00;
+    color: #263238;
+}
+
+.dropdown-content li > span {
+  color: black;
+}
+
+.month-prev:focus, .month-next:focus{
+  background-color:#ffab00; 
+}
+
+.datepicker-day-button:focus {
+  background-color: #ffecb3;
+}
+
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+input[type=password]:not(.browser-default):focus:not([readonly]) + label,
+input[type=email]:not(.browser-default):focus:not([readonly]) + label,
+input[type=url]:not(.browser-default):focus:not([readonly]) + label,
+input[type=time]:not(.browser-default):focus:not([readonly]) + label,
+input[type=date]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label,
+input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
+input[type=number]:not(.browser-default):focus:not([readonly]) + label,
+input[type=search]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #607d8b;}
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #607d8b;
+  -webkit-box-shadow: 0 1px 0 0 #607d8b;
+          box-shadow: 0 1px 0 0 #607d8b;
+}
+
+.select-wrapper input.select-dropdown:focus {
+    border-bottom: 1px solid #607d8b;
+}
+
+.btn-floating i{
+  color: #263238;
+}
